@@ -46,7 +46,4 @@
 // const max = getMax(numbers);
 // max;
 
-// ---------------    Scope ---------------------//
-
-
 
