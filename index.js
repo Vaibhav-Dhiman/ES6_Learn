@@ -46,4 +46,39 @@
 // const max = getMax(numbers);
 // max;
 
+// ----------------- arrow functions -----------------------/////
+
+
+// simple function
+
+//const arr = [1,2,3,4]
+
+// const byTwo = arr.map(function (number) {
+//     return number*2
+// })
+
+// byTwo;
+
+// coverting above function to arrow function as below
+
+// const byTwo = arr.map(number => 
+//      number*2
+// )
+
+ // or const byTwo = arr.map(number =>return number*2)
+
+//byTwo;
+// this can be easily bind using arrow functions
+
+// var obj = {
+//     value: 0,
+//     increment: function() {
+//         setTimeout(() =>{
+//             this.value++;
+//             console.log(this.value);
+//         }, 1000);
+//     }
+// }
+
+// obj.increment();
 
