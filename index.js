@@ -90,6 +90,21 @@
 //     amount;
 //     item
 // }
-
-
 // buy('eggs')
+
+
+// ------------ rest operator ------------ //
+// cannot defined a param after rest
+// get all the params which  is passed to the function
+// function print(age,page, ...arr) {
+//     age
+//     page
+//     arr
+// }
+
+// print(2,4,5,'hello','world')
+
+
+// ------ spread ------------
+
+
