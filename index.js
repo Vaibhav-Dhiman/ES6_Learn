@@ -82,3 +82,14 @@
 
 // obj.increment();
 
+// --------- default parameters -----------
+
+// pass amount as default params here ..
+// if amount not pass it will take amount as 3
+// function buy(item, amount =3) {
+//     amount;
+//     item
+// }
+
+
+// buy('eggs')
