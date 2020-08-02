@@ -96,6 +96,8 @@
 // ------------ rest operator ------------ //
 // cannot defined a param after rest
 // get all the params which  is passed to the function
+// cannot set more then one rest
+
 // function print(age,page, ...arr) {
 //     age
 //     page
@@ -106,5 +108,9 @@
 
 
 // ------ spread ------------
+// works for both array and iterable objects like strings
+// const message = "hello world";
+// const chars = ['!', ...message]
+// chars
 
 
