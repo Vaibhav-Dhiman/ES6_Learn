@@ -154,5 +154,17 @@
 // person
 
 
+//method property 
 
+// var person = {
+//     firstname: 'bob',
+//     age: 23,
+//     birthday() {
+//         this.age++;
+//     }
+// }
+
+
+// person.birthday();
+// person;
 
