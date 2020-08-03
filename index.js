@@ -114,3 +114,9 @@
 // chars
 
 // template literals
+// use back ticks here as below
+
+var age = 34; var name = 'tomy'
+var msg = `My name is ${name}. My age is ${age}`
+console.log(msg)
+
