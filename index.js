@@ -168,3 +168,32 @@
 // person.birthday();
 // person;
 
+// classes used to create new objects in js
+
+// class Person {
+//     constructor(name,age) {
+//         this.name = name;
+//         this.age = age;
+//     }
+//     jump() {
+//         console.log('jump')
+//     }
+// }
+
+// class Employee extends Person {
+//     constructor(name,age,years) {
+//         super(name,age);
+//         this.years = years;
+//     }
+// }
+
+// const emp = new Employee('bob',23,23)
+// emp
+
+// const person = new Person('vaibhav', 34);
+// person;
+// person.jump();
+
+
+//super keyword is used to call parent class method in chils class 
+// when both methods have the same name
