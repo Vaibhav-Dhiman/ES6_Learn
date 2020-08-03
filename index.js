@@ -113,10 +113,46 @@
 // const chars = ['!', ...message]
 // chars
 
-// template literals
+// string template literals
 // use back ticks here as below
 
-var age = 34; var name = 'tomy'
-var msg = `My name is ${name}. My age is ${age}`
-console.log(msg)
+// var age = 34; var name = 'tomy'
+// var msg = `My name is ${name}. My age is ${age}`
+// console.log(msg)
+
+
+
+// property shortname
+
+// var fname = 'vaibhav';
+// var lname = 'dhiman';
+// var age = 34;
+
+// var person = {
+//     fname,
+//     lname,
+//     age
+// }
+
+// person;
+
+
+// computed property string
+
+// var key = 'lastname';
+
+// function getKey() {
+//     return 'hello';
+// }
+
+// var person = {
+//     firstname: 'bob',
+//     [key]: 'harvey',
+//     [getKey()]: 'test'
+// };
+
+// person
+
+
+
 
