@@ -246,14 +246,39 @@ function getAge(cb) {
 //promise chaining below example
 // passing value from one promise to another
 
-getName()
-.then(name => {
-    console.log(name);
-    return 'lol';
-})
-.then(age => {
-    console.log(age);
-})
+// getName()
+// .then(name => {
+//     console.log(name);
+//     return 'lol';
+// })
+// .then(age => {
+//     console.log(age);
+// })
 
+// promise.all can take array of multiple promises and resolves them together on by one.
+
+// Promise.all([
+//     getName(),
+//     getAge()
+// ])
+
+// // when all resolved below will run
+// .then(([name,age]) => {
+//     console.log(name);
+//     console.log(age);
+// })
+
+
+// below race function will return the result of the promise which executes first  
+// Promise.race([
+//     getName(),
+//     getAge()
+// ])
+
+// // when all resolved below will run
+// .then(([name,age]) => {
+//     console.log(name);
+//     console.log(age);
+// })
 
 
