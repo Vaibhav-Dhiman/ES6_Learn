@@ -204,18 +204,56 @@
 
 // matching and declare variables 
 
-function getConfig() {
-    return {
-        isOn: true,
-        amount: 10,
-        servers: {
-            a: true,
-            b: false
-        }
-    }
+// function getConfig() {
+//     return {
+//         isOn: true,
+//         amount: 10,
+//         servers: {
+//             a: true,
+//             b: false
+//         }
+//     }
+// }
+
+
+// var {isOn: myBool, amount: reTime} = getConfig();
+
+// myBool;
+
+
+// promises
+// to replace callbacks
+// reduces callbacks hell
+
+function getName() {
+ return new Promise((resolve, reject) => {
+    setTimeout(() => {
+        resolve('bob');
+    }, 1000);
+ });
+}
+
+function getAge(cb) {
+   return new Promise((resolve, reject) => {
+        setTimeout(() => {
+            resolve(10);
+        }, 4000);
+     });
 }
 
 
-var {isOn: myBool, amount: reTime} = getConfig();
 
-myBool;
+//promise chaining below example
+// passing value from one promise to another
+
+getName()
+.then(name => {
+    console.log(name);
+    return 'lol';
+})
+.then(age => {
+    console.log(age);
+})
+
+
+
