@@ -225,21 +225,21 @@
 // to replace callbacks
 // reduces callbacks hell
 
-function getName() {
- return new Promise((resolve, reject) => {
-    setTimeout(() => {
-        resolve('bob');
-    }, 1000);
- });
-}
+// function getName() {
+//  return new Promise((resolve, reject) => {
+//     setTimeout(() => {
+//         resolve('bob');
+//     }, 1000);
+//  });
+// }
 
-function getAge(cb) {
-   return new Promise((resolve, reject) => {
-        setTimeout(() => {
-            resolve(10);
-        }, 4000);
-     });
-}
+// function getAge(cb) {
+//    return new Promise((resolve, reject) => {
+//         setTimeout(() => {
+//             resolve(10);
+//         }, 4000);
+//      });
+// }
 
 
 
@@ -280,5 +280,34 @@ function getAge(cb) {
 //     console.log(name);
 //     console.log(age);
 // })
+
+// promise catch
+
+// Promise.all([
+//     getName(),
+//     getAge()
+// ])
+
+// // when all resolved below will run
+// .then(([name,age]) => {
+//     console.log(name);
+//     console.log(age);
+// })
+// // below catch will invoke when reject gets called from an above defined functions
+// .catch(err => {
+//     console.log(err);
+// });
+
+// if a promise return an Error or Excception that will be catch by the catch as well
+// in case of error and exception it will return it.. reject can keep more info then error or exception in promise methods
+
+
+//--- alternative to promise is aync and awaits
+// we can do try catch
+
+
+
+
+
 
 
