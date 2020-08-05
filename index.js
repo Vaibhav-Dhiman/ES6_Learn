@@ -200,4 +200,22 @@
 
 
 // start with section 10
+// array matching
 
+// matching and declare variables 
+
+function getConfig() {
+    return {
+        isOn: true,
+        amount: 10,
+        servers: {
+            a: true,
+            b: false
+        }
+    }
+}
+
+
+var {isOn: myBool, amount: reTime} = getConfig();
+
+myBool;
