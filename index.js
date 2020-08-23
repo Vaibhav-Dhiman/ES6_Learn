@@ -306,7 +306,21 @@
 // we can do try catch
 
 
+// object assign will copies keys from one objjects to others
+// multiple objects can be useds
+// var obj1 = {};
+// var obj2 = {
+//     name: 'vaibhav'
+// };
 
+// Object.assign(obj1,obj2);
+// obj1;
+
+
+
+// string repeat
+// const string = '$'.repeat(13);
+// string;
 
 
 
