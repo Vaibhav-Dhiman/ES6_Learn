@@ -46,6 +46,9 @@ const sortAges = ages.sort((a,b) => b-a);
 
 // reduce
 
+let ageSum = ages.reduce((total ,age) => total+age, 0)
+
+console.log(ageSum);
 
 
 
