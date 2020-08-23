@@ -324,4 +324,14 @@
 
 
 
+// includes
+// const index = 'hi there world'.includes('world');
+// index;
+
+// ends with 
+
+// const index = 'hi there world'.endsWith('world');
+// index;
+
+
 
